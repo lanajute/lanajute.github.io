@@ -152,9 +152,9 @@ body {
     /* transition: .5s; */
 }
 
-.nav__item:hover {
+/* .nav__item:hover {
     border: 2px solid rgb(86, 77, 114);
-}
+} */
 
 .nav__item__link {
     font-size: 1.75rem;
@@ -209,7 +209,7 @@ body {
     border-radius: 50%;
 }
 
-.gradient-border:hover {
+.nav__item:hover .gradient-border {
     box-shadow: 0 2px 0 0 rgba(225, 131, 194, 0.25), 0 -2px 0 0 rgba(165, 181, 222, 0.25), 2px 0 0 0 rgba(225, 131, 194, 0.25), -2px 0 0 0 rgba(165, 181, 222, 0.25), 2px -2px 0 0 rgba(195, 156, 208, 0.5), -2px 2px 0 0 rgba(195, 156, 208, 0.5), 2px 2px 0 0 rgba(255, 105, 180, 0.75), -2px -2px 0 0 rgba(135, 206, 235, 0.75);
     animation: rotateThis 1s linear infinite;
 }
